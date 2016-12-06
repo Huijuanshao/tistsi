@@ -1,0 +1,254 @@
+% v2-acmsmall-sample.tex, dated March 6 2012
+% This is a sample file for ACM small trim journals
+%
+% Compilation using 'acmsmall.cls' - version 1.3 (March 2012), Aptara Inc.
+% (c) 2010 Association for Computing Machinery (ACM)
+%
+% Questions/Suggestions/Feedback should be addressed to => "acmtexsupport@aptaracorp.com".
+% Users can also go through the FAQs available on the journal's submission webpage.
+%
+% Steps to compile: latex, bibtex, latex latex
+%
+% For tracking purposes => this is v1.3 - March 2012
+
+\documentclass[prodmode,acmtecs]{acmsmall} % Aptara syntax
+
+% Package to generate and customize Algorithm as per ACM style
+\usepackage[ruled]{algorithm2e}
+\renewcommand{\algorithmcfname}{ALGORITHM}
+
+
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{color}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[cmex10]{amsmath}
+\usepackage{algcompatible}
+\usepackage{multirow}
+%\usepackage{amsthm}
+\usepackage{mdwlist}
+\usepackage{cite}
+\usepackage[sort&compress]{natbib}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{comment}
+%\usepackage{algorithmicx}
+%\usepackage{algorithm} % http://ctan.org/pkg/algorithms
+\usepackage{array}
+\usepackage[nottoc]{tocbibind}
+\newcommand{\argmin}{\arg\!\min}
+\algrenewcommand\alglinenumber[1]{\tiny #1:}
+
+%\newtheorem{definition}{Definition}
+
+\SetAlFnt{\small}
+\SetAlCapFnt{\small}
+\SetAlCapNameFnt{\small}
+\SetAlCapHSkip{0pt}
+\IncMargin{-\parindent}
+
+% Metadata Information
+%\acmVolume{9}
+%\acmNumber{4}
+%\acmArticle{39}
+%\acmYear{2010}
+%\acmMonth{3}
+
+% Document starts
+\begin{document}
+
+% Page heads
+\markboth{H. Shao et al.}{Temporal Motif Mining Approaches for Smart Homes}
+
+% Title portion
+\title{Temporal Motif Mining Approaches for Smart Homes}
+\author{Huijuan Shao
+\affil{Virginia Tech}
+Yaowei Li
+\affil{Game source}
+Fei Li
+\affil{Virginia Tech}
+Erin Griffiths
+\affil{University of Virginia}
+Kamin Whitehouse
+\affil{University of Virginia}
+Naren Ramakrishnan
+\affil{Virginia Tech}}
+% NOTE! Affiliations placed here should be for the institution where the
+%       BULK of the research was done. If the author has gone to a new
+%       institution, before publication, the (above) affiliation should NOT be changed.
+%       The authors 'current' address may be given in the "Author's addresses:" block (below).
+%       So for example, Mr. Abdelzaher, the bulk of the research was done at UIUC, and he is
+%       currently affiliated with NASA.
+
+\begin{abstract}
+With the advent of modern sensor technologies, 
+significant opportunities have opened up to help conserve energy in 
+residential and commercial buildings. Moreover, the rapid \emph{urbanization} we are witnessing requires optimized energy distribution. 
+This paper focuses on two sub-problems in improving energy conservation; \emph{energy disaggregation and occupancy prediction}. 
+Energy disaggregation attempts to 
+separate the energy usage 
+of each circuit or each electric device in a building 
+using only aggregate electricity usage information from 
+the meter for the whole house. 
+The second problem of occupancy prediction can be accomplished using non-invasive indoor activity tracking to 
+predict the locations of people inside a building. 
+We cast both problems as \emph{temporal mining problems}. We exploit motif mining with constraints to distinguish devices with multiple states, which helps tackle the energy disaggregation problem. Our
+results reveal that motif mining is adept at distinguishing
+devices with multiple power levels and at disentangling the
+combinatorial operation of devices.
+For the second problem we propose time-gap constrained episode mining to detect 
+activity patterns followed by the use of a mixture of episode generating HMM (EGH) models 
+to predict home occupancy.  
+Finally, we demonstrate that the mixture EGH
+model can also help predict the location of a person to 
+address non-invasive indoor activities tracking. 
+\end{abstract}
+
+%\category{C.2.2}{Computer-Communication Networks}{Network Protocols}
+
+%\terms{Design, Algorithms, Performance}
+
+\keywords{Data mining, sustainability, energy disaggregation, occupancy prediction}
+
+%\acmformat{Gang Zhou, Yafeng Wu, Ting Yan, Tian He, Chengdu Huang, John A. Stankovic,
+%and Tarek F. Abdelzaher, 2010. A multifrequency MAC specially
+%designed for  wireless sensor network applications.}
+% At a minimum you need to supply the author names, year and a title.
+% IMPORTANT:
+% Full first names whenever they are known, surname last, followed by a period.
+% In the case of two authors, 'and' is placed between them.
+% In the case of three or more authors, the serial comma is used, that is, all author names
+% except the last one but including the penultimate author's name are followed by a comma,
+% and then 'and' is placed before the final author's name.
+% If only first and middle initials are known, then each initial
+% is followed by a period and they are separated by a space.
+% The remaining information (journal title, volume, article number, date, etc.) is 'auto-generated'.
+
+%\begin{bottomstuff}
+%This work is supported by the National Science Foundation, under
+%grant CNS-0435060, grant CCR-0325197 and grant EN-CS-0329609.
+
+%Author's addresses: G. Zhou, Computer Science Department,
+%College of William and Mary; Y. Wu  {and} J. A. Stankovic,
+%Computer Science Department, University of Virginia; T. Yan,
+%Eaton Innovation Center; T. He, Computer Science Department,
+%University of Minnesota; C. Huang, Google; T. F. Abdelzaher,
+%Current address) NASA Ames Research Center, Moffett Field, California 94035.
+%\end{bottomstuff}
+
+\maketitle
+
+\include{sec/introduction}
+\include{sec/prior}
+\include{sec/multivariateApp}
+\include{sec/predictionApp}
+\include{sec/disaggResults}
+\include{sec/predictionResults}
+\input{sec/conclusion.tex}
+
+
+%\input{multidisaggsec/introduction.tex}
+%\input{multidisaggsec/prior.tex}
+%\input{multidisaggsec/formalism.tex}
+%\input{multidisaggsec/approach.tex}
+%\input{multidisaggsec/evaluation.tex}
+%\input{multidisaggsec/electricityExp.tex}
+%\input{multidisaggsec/waterExp.tex}
+%\input{multidisaggsec/conclusion.tex} 
+
+%\input{adlsec/abstract.tex}
+%\input{adlsec/introduction.tex}
+%\input{adlsec/related.tex}
+%\input{adlsec/formulation.tex}
+%\input{adlsec/algorithm.tex}
+%\input{adlsec/result.tex}
+%\input{adlsec/conclusion.tex}
+%\input{adlsec/appendix.tex}
+
+%\input{sec/conclusion.tex}
+
+% Algorithm
+\iffalse
+\begin{algorithm}[t]
+\SetAlgoNoLine
+\KwIn{Node $\alpha$'s ID ($ID_{\alpha}$), and node $\alpha$'s
+neighbors' IDs within two communication hops.}
+\KwOut{The frequency number ($FreNum_{\alpha}$) node $\alpha$ gets assigned.}
+$index$ = 0; $FreNum_{\alpha}$ = -1\;
+\Repeat{$FreNum_{\alpha} > -1$}{
+        $Rnd_{\alpha}$ = Random($ID_{\alpha}$, $index$)\;
+        $Found$ = $TRUE$\;
+        \For{each node $\beta$ in $\alpha$'s two communication hops
+    }{
+      $Rnd_{\beta}$ = Random($ID_{\beta}$, $index$)\;
+      \If{($Rnd_{\alpha} < Rnd_{\beta}$) \text{or} ($Rnd_{\alpha}$ ==
+          $Rnd_{\beta}$ \text{and} $ID_{\alpha} < ID_{\beta}$)\;
+      }{
+        $Found$ = $FALSE$; break\;
+      }
+        }
+     \eIf{$Found$}{
+           $FreNum_{\alpha}$ = $index$\;
+         }{
+           $index$ ++\;
+     }
+      }
+\caption{Frequency Number Computation}
+\label{alg:one}
+\end{algorithm}
+\fi
+
+% Table
+\iffalse
+\begin{table}%
+\tbl{Simulation Configuration\label{tab:one}}{%
+\begin{tabular}{|l|l|}
+\hline
+TERRAIN{$^a$}   & (200m$\times$200m) Square\\\hline
+Node Number     & 289\\\hline
+Node Placement  & Uniform\\\hline
+Application     & Many-to-Many/Gossip CBR Streams\\\hline
+Payload Size    & 32 bytes\\\hline
+Routing Layer   & GF\\\hline
+MAC Layer       & CSMA/MMSN\\\hline
+Radio Layer     & RADIO-ACCNOISE\\\hline
+Radio Bandwidth & 250Kbps\\\hline
+Radio Range     & 20m--45m\\\hline
+\end{tabular}}
+\begin{tabnote}%
+\Note{Source:}{This is a table
+sourcenote. This is a table sourcenote. This is a table
+sourcenote.}
+\vskip2pt
+\Note{Note:}{This is a table footnote.}
+\tabnoteentry{$^a$}{This is a table footnote. This is a
+table footnote. This is a table footnote.}
+\end{tabnote}%
+\end{table}%
+\fi
+
+% Acknowledgments
+%\begin{acks}
+%The authors would like to thank Dr. Maura Turolla of Telecom
+%Italia for providing specifications about the application scenario.
+%\end{acks}
+
+% Bibliography
+\bibliographystyle{ACM-Reference-Format-Journals}
+\bibliography{references}
+
+% History dates
+%\received{February 2007}{March 2009}{June 2009}
+
+\end{document}
+
+
+

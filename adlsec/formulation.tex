@@ -1,0 +1,96 @@
+\section{Problem Formulation}
+Given $M$ time series, 
+each time series $X^{(m)}=X^{(m)}_1, ..., X^{(m)}_t, ..., X_T^{(m)}$ 
+represents a sequence of room occupancy of person $m$ inside 
+a home over $K$ days, 
+where $X_t\in s$ denotes that $X$ belongs to a finite room set $s$ at the sequence number of $t$, 
+and $m\in\{1,...,M\}$. 
+%Each $X$ is has a start time $X.start$ and an end time $X.end$.  
+Let $Z$ denote that the home is unoccupied and $Z\in s$.  %$Z=0$ if a house is unoccupied; $Z=1$ if the house is occupied.  
+%Its meaning equals to certain symbols from set $s$. 
+We predict whether person $m$ stays at home the rest of a day from time $T$,  i.e. during $T+1$, $T+2$, ..., $\Delta T$, 
+ 
+\begin{equation}
+\hat{Y}^{(m)}=\hat{Y}_{T+1}^{(m)},...,\hat{Y}^{(m)}_{T+\Delta T}
+\end{equation}
+where $Y_{T+\Delta t }^{(m)}=Z$ if person $m$ does not stay at home at time $T+\Delta t $;
+otherwise, $Y_{T+\Delta t}^{(m)} \neq Z$. 
+%The un-occupancy of the whole house is the intersection of un-occupancy of all people. 
+If any person $m$ stays at home $Y_{T+\Delta t}^{(m)} \neq Z$, then this house is occupied $Y_{T+ \Delta t} \neq Z$. 
+
+
+\iffalse
+Given $M$ time series, 
+each time series $X^{(m)}=X^{(m)}_1, ..., X^{(m)}_t, ..., X_T^{(m)}$ 
+represents a sequence of room occupancy of person $m$ inside 
+a home over $K$ days, 
+where $X_t\in s$ denotes that $X$ belongs to a finite room set $s$ at the sequence number of $t$. 
+Each $X$ is has a start time $X.start$ and an end time $X.end$.  
+Let $Z$ denote that the home is unoccupied. 
+It equals to certain symbols from set $s$. 
+Also, given a time gap from current time $\Delta t$, 
+predict whether $Z$ appears at time  $T+\Delta t$
+
+ formulate the occupancy prediction problem as one of 
+episode mining and event type time prediction problem. 
+\textit{Problem Statement} Given a sequence of the room occupation 
+events stream \textit{s} with finite events symbols $\varepsilon$, 
+and the target un-occupancy event \textit{Z}, can we
+find the frequent patterns $\{\alpha_1,...\alpha_n\}$ 
+and can the corresponding episode generative HMM 
+$\{\Lambda_{\alpha_1}, ..., \Lambda_{\alpha_n}\}$, 
+predict when 
+the person leaves $Z.{start}$, 
+and when the person comes back $Z.{end}$.?
+
+The training phase is to mine the frequent episodes and connect it with HMM model
+as described in \cite{laxman2008stream}. We modify the constraints during episode mining
+and keeps the connections between the frequent episodes and HMM the same. 
+The training algorithm describes in Algorithm \ref{alg1}.
+\fi
+
+%\input{adlalgs/alg01.tex}
+\iffalse
+From line 1-2, the symbols are reorganized according to the 15-minutes chuck of each day. 
+If there are more than one symbols in a 15-minutes chuck, 
+the symbol with longest duration event will be chosen. 
+This step is to emphasize there is only one place a person stays in the room. 
+From line 4-7, the W length sequence before the target symbol Z firstly appears is chosen 
+for each day. 
+From line 9-11, the frequent episodes are mined. 
+From line 12-14, for each episode, a HMM model named EGH is generated and connected. Then a mixture model 
+with all these EGHs are calculated with EM algorithm. 
+
+The event time prediction algorithm Algorithm \ref{alg2} is composed of two stages. 
+In the first stage from line 1-15,
+we could predict whether the next event $E_{t+q}$ is the target event Z or not. 
+For each $t$ is greater than W, intercept the sequence of length $W$ 
+$X=<E_{t-W}, ..., E_t>$ in line 2. 
+If Z is inside the X, then calculate the possible largest Z index $t_{max}$ inside X. 
+In lines 4-6 the mixture model is calculated whether the next time $t+1$ would be the target event or not.
+In line 8, all the frequent episodes will be checked whether it is inside the sequence X after $t_{max}$
+If there is any frequent episode inside X, 
+then we could predict the next event $E_{t+1}=Z$. 
+That is, if any of the frequent episode happens 
+and the value is greater than the threshold, 
+then the next event is Z. 
+
+In the second stage, the exact leave and back time prediction of Z is described from line 16-25. 
+If a person gets up before sleep, 
+generally we don't know when he will leave or come back. 
+In this case, the predicted time is based on the average value of the past leave and back time. 
+If a person already gets up, 
+we mine the episode patterns, 
+and predict according to the mixture model. 
+This will be detailedly explained in \ref{alg22}.
+If a person already leaves, 
+the back time prediction is also based on the historical past time with 
+a constraint on the leaving time. 
+For a person may come back home and stay home for sometimes then go out again, 
+we could repeat the second stage until the end of day. 
+\fi
+%\input{adlalgs/alg02.tex}
+
+
+
+
