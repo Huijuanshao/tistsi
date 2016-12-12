@@ -1,0 +1,400 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+
+\bibitem[\protect\citeauthoryear{??}{boo}{2014}]%
+        {book2014us}
+ 2014.
+\newblock \showarticletitle{Buildings Energy Data Book}.
+\newblock {\em Energy Efficiency and Renewable Energy\/} (2014).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Alrazgan, Nagarajan, Brodsky, and
+  Egge}{Alrazgan et~al\mbox{.}}{2011}]%
+        {alrazgan2011learning}
+{Abdullah Alrazgan}, {Ajay Nagarajan}, {Alexander Brodsky}, {and} {Nathan~E
+  Egge}. 2011.
+\newblock \showarticletitle{Learning occupancy prediction models with
+  decision-guidance query language}. In {\em Proceedings of the 44th Hawaii
+  International Conference on System Sciences (HICSS)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Beltran and Cerpa}{Beltran and Cerpa}{2014}]%
+        {beltran2014optimal}
+{Alex Beltran} {and} {Alberto~E Cerpa}. 2014.
+\newblock \showarticletitle{Optimal HVAC building control with occupancy
+  prediction}. In {\em Proceedings of the 1st ACM Conference on Embedded
+  Systems for Energy-Efficient Buildings}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chan, So, and Lai}{Chan et~al\mbox{.}}{2000}]%
+        {chan2000harmonics}
+{WL Chan}, {Albert~TP So}, {and} {LL Lai}. 2000.
+\newblock \showarticletitle{Harmonics load signature recognition by wavelets
+  transforms}. In {\em Proceedings of the IEEE International Conference on
+  Electric Utility Deregulation and Restructuring and Power Technologies}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Chiu, Keogh, and Lonardi}{Chiu
+  et~al\mbox{.}}{2003}]%
+        {motif1}
+{Bill Chiu}, {Eamonn Keogh}, {and} {Stefano Lonardi}. 2003.
+\newblock \showarticletitle{{Probabilistic discovery of time series motifs}}.
+  In {\em Proceedings of the 9th ACM SIGKDD International Conference on
+  Knowledge discovery and Data Mining}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{EnergyCircle}{EnergyCircle}{2016}]%
+        {eMonitor}
+{EnergyCircle}. 2016.
+\newblock eMonitor Sensor.
+\newblock   (2016).
+\newblock
+\showURL{%
+\url{http://www.energycircle.com/energy-monitors/emonitor-energy-monitor-service-3rd-generation}}
+
+
+\bibitem[\protect\citeauthoryear{Erickson and Cerpa}{Erickson and
+  Cerpa}{2010}]%
+        {erickson2010occupancy}
+{Varick~L Erickson} {and} {Alberto~E Cerpa}. 2010.
+\newblock \showarticletitle{Occupancy based demand response HVAC control
+  strategy}. In {\em Proceedings of the 2nd ACM Workshop on Embedded Sensing
+  Systems for Energy-Efficiency in Building}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Goncalves, Ocneanu, Berges, and Fan}{Goncalves
+  et~al\mbox{.}}{2011}]%
+        {gonccalves2011unsupervised}
+{Hugo Goncalves}, {Adrian Ocneanu}, {Mario Berges}, {and} {RH Fan}. 2011.
+\newblock \showarticletitle{Unsupervised disaggregation of appliances using
+  aggregated consumption data}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hart}{Hart}{1992}]%
+        {hart1992}
+{George~William Hart}. 1992.
+\newblock \showarticletitle{Nonintrusive appliance load monitoring}.
+\newblock {\it Proc. {IEEE}} (1992).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Hatley, Meador, Katipamula, Brambley, and
+  Wouden}{Hatley et~al\mbox{.}}{2005}]%
+        {hatley2005energy}
+{Darrel~D Hatley}, {Richard~J Meador}, {Srinivas Katipamula}, {Michael~R
+  Brambley}, {and} {Carl Wouden}. 2005.
+\newblock \showarticletitle{Energy management and control system: Desired
+  capabilities and functionality}.
+\newblock {\em Pacific Northwest National Laboratory, Richland, WA\/} (2005).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Johnson and Willsky}{Johnson and
+  Willsky}{2012}]%
+        {johnson2012bayesian}
+{Matthew~J Johnson} {and} {Alan~S Willsky}. 2012.
+\newblock \showarticletitle{Bayesian nonparametric hidden semi-Markov models}.
+\newblock {\em CoRR\/} (2012).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kim, Marwah, Arlitt, Lyon, and Han}{Kim
+  et~al\mbox{.}}{2011}]%
+        {kim2011unsupervised}
+{Hyungsul Kim}, {Manish Marwah}, {Martin~F Arlitt}, {Geoff Lyon}, {and} {Jiawei
+  Han}. 2011.
+\newblock \showarticletitle{Unsupervised disaggregation of low frequency power
+  measurements}. In {\em Proceedings of the SIAM International Conference on
+  Data Mining}. 747--758.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kiukkonen, Blom, Dousse, Gatica-Perez, and
+  Laurila}{Kiukkonen et~al\mbox{.}}{2010}]%
+        {kiukkonen2010towards}
+{Niko Kiukkonen}, {Jan Blom}, {Olivier Dousse}, {Daniel Gatica-Perez}, {and}
+  {Juha Laurila}. 2010.
+\newblock \showarticletitle{Towards rich mobile phone datasets: Lausanne data
+  collection campaign}.
+\newblock {\em Proc. ICPS, Berlin\/} (2010).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kleiminger, Mattern, and Santini}{Kleiminger
+  et~al\mbox{.}}{2014}]%
+        {kleiminger2014predicting}
+{Wilhelm Kleiminger}, {Friedemann Mattern}, {and} {Silvia Santini}. 2014.
+\newblock \showarticletitle{Predicting household occupancy for smart heating
+  control: A comparative performance analysis of state-of-the-art approaches}.
+\newblock {\em Energy and Buildings\/} (2014).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Koehler, Ziebart, Mankoff, and Dey}{Koehler
+  et~al\mbox{.}}{2013}]%
+        {koehler2013therml}
+{Christian Koehler}, {Brian~D Ziebart}, {Jennifer Mankoff}, {and} {Anind~K
+  Dey}. 2013.
+\newblock \showarticletitle{TherML: occupancy prediction for thermostat
+  control}. In {\em Proceedings of the 2013 ACM international Joint Conference
+  on Pervasive and Ubiquitous Computing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Kolter and Jaakkola}{Kolter and
+  Jaakkola}{2012}]%
+        {kolter2012aistat}
+{J~Zico Kolter} {and} {Tommi~S Jaakkola}. 2012.
+\newblock \showarticletitle{Approximate inference in additive factorial HMMs
+  with application to energy disaggregation}. In {\em International Conference
+  on Artificial Intelligence and Statistics}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Krumm and Brush}{Krumm and Brush}{2011}]%
+        {krumm2011learning}
+{John Krumm} {and} {AJ~Bernheim Brush}. 2011.
+\newblock \showarticletitle{Learning time-based presence probabilities}.
+\newblock In {\em Pervasive Computing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lam, Fung, and Lee}{Lam et~al\mbox{.}}{2007}]%
+        {lam2007novel}
+{HY Lam}, {GSK Fung}, {and} {WK Lee}. 2007.
+\newblock \showarticletitle{A Novel Method to Construct Taxonomy Electrical
+  Appliances Based on Load Signatures}.
+\newblock {\em IEEE Transactions on Consumer Electronics\/} (2007).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Laxman, Sastry, and Unnikrishnan}{Laxman
+  et~al\mbox{.}}{2005}]%
+        {laxman2005discovering}
+{Srivatsan Laxman}, {PS Sastry}, {and} {KP Unnikrishnan}. 2005.
+\newblock \showarticletitle{Discovering frequent episodes and learning hidden
+  markov models: A formal connection}.
+\newblock {\em IEEE Transactions on Knowledge and Data Engineering\/} (2005).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Laxman and Sastry}{Laxman and Sastry}{2006}]%
+        {laxman2006survey}
+{Srivatsan Laxman} {and} {P~Shanti Sastry}. 2006.
+\newblock \showarticletitle{A survey of temporal data mining}.
+\newblock {\em Sadhana\/} {31}, 2 (2006), 173--198.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Laxman, Tankasali, and White}{Laxman
+  et~al\mbox{.}}{2008}]%
+        {laxman2008stream}
+{Srivatsan Laxman}, {Vikram Tankasali}, {and} {Ryen~W White}. 2008.
+\newblock \showarticletitle{{Stream prediction using a generative model based
+  on frequent episodes in event sequences}}. In {\em Proceeding of the 14th ACM
+  SIGKDD International Conference on Knowledge Discovery and Data Mining}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mahmoud, Lotfi, and Langensiepen}{Mahmoud
+  et~al\mbox{.}}{2013}]%
+        {mahmoud2013behavioural}
+{Sawsan Mahmoud}, {Ahmad Lotfi}, {and} {Caroline Langensiepen}. 2013.
+\newblock \showarticletitle{Behavioural pattern identification and prediction
+  in intelligent environments}.
+\newblock {\em Applied Soft Computing\/} (2013).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Manna, Fay, Brown, and Wilson}{Manna
+  et~al\mbox{.}}{2013}]%
+        {manna2013learning}
+{Carlo Manna}, {Damien Fay}, {Kenneth~N Brown}, {and} {Nic Wilson}. 2013.
+\newblock \showarticletitle{Learning occupancy in single person offices with
+  mixtures of multi-lag Markov chains}. In {\em Proceedings of the IEEE 25th
+  International Conference on Tools with Artificial Intelligence (ICTAI)}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mannila, Toivonen, and Verkamo}{Mannila
+  et~al\mbox{.}}{1997}]%
+        {mannila1997discovery}
+{Heikki Mannila}, {Hannu Toivonen}, {and} {A~Inkeri Verkamo}. 1997.
+\newblock \showarticletitle{Discovery of frequent episodes in event sequences}.
+\newblock {\em Data Mining and Knowledge Discovery\/} (1997).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Minnen, Starner, Essa, and Isbell~Jr}{Minnen
+  et~al\mbox{.}}{2007}]%
+        {minnen2007improving}
+{David Minnen}, {Thad Starner}, {Irfan~A Essa}, {and} {Charles~Lee Isbell~Jr}.
+  2007.
+\newblock \showarticletitle{Improving Activity Discovery with Automatic
+  Neighborhood Estimation}. In {\em IJCAI}, Vol.~7. 2814--2819.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Parson, Ghosh, Weal, and Rogers}{Parson
+  et~al\mbox{.}}{2012}]%
+        {parson2012nonintrusive}
+{Oliver Parson}, {Siddhartha Ghosh}, {Mark Weal}, {and} {Alex Rogers}. 2012.
+\newblock \showarticletitle{Non-intrusive load monitoring using prior models of
+  general appliance types}. In {\em Proceedings of the 26th AAAI Conference on
+  Artificial Intelligence}. Toronto, Canada.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Patel, Robertson, Kientz, Reynolds, and
+  Abowd}{Patel et~al\mbox{.}}{2007}]%
+        {patel2007flick}
+{Shwetak~N Patel}, {Thomas Robertson}, {Julie~A Kientz}, {Matthew~S Reynolds},
+  {and} {Gregory~D Abowd}. 2007.
+\newblock \showarticletitle{At the flick of a switch: detecting and classifying
+  unique electrical events on the residential power line}. In {\em Proceedings
+  of the 9th International Conference on Ubiquitous computing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Patnaik, Marwah, Sharma, and
+  Ramakrishnan}{Patnaik et~al\mbox{.}}{2009}]%
+        {motifgoal}
+{Debprakash Patnaik}, {Manish Marwah}, {Ratnesh Sharma}, {and} {Naren
+  Ramakrishnan}. 2009.
+\newblock \showarticletitle{{Sustainable operation and ,anagement of data
+  center chillers using temporal data mining}}. In {\em Proceedings of the 15th
+  ACM SIGKDD international Conference on Knowledge Discovery and Data Mining}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Patnaik, Sastry, and Unnikrishnan}{Patnaik
+  et~al\mbox{.}}{2008}]%
+        {patnaik2008inferring}
+{Debprakash Patnaik}, {PS Sastry}, {and} {K Unnikrishnan}. 2008.
+\newblock \showarticletitle{Inferring neuronal network connectivity from spike
+  data: A temporal data mining approach}.
+\newblock {\em Scientific Programming\/} (2008).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Scott, Bernheim~Brush, Krumm, Meyers, Hazas,
+  Hodges, and Villar}{Scott et~al\mbox{.}}{2011}]%
+        {scott2011preheat}
+{James Scott}, {AJ Bernheim~Brush}, {John Krumm}, {Brian Meyers}, {Michael
+  Hazas}, {Stephen Hodges}, {and} {Nicolas Villar}. 2011.
+\newblock \showarticletitle{PreHeat: controlling home heating using occupancy
+  prediction}. In {\em Proceedings of the 13th International Conference on
+  Ubiquitous Computing}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Seto, Fragkias, G{\"u}neralp, and Reilly}{Seto
+  et~al\mbox{.}}{2011}]%
+        {seto2011meta}
+{Karen~C Seto}, {Michail Fragkias}, {Burak G{\"u}neralp}, {and} {Michael~K
+  Reilly}. 2011.
+\newblock \showarticletitle{A meta-analysis of global urban land expansion}.
+\newblock {\em PloS one\/} {6}, 8 (2011), e23777.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shao, Marwah, and Ramakrishnan}{Shao
+  et~al\mbox{.}}{2013}]%
+        {shao2013temporal}
+{Huijuan Shao}, {Manish Marwah}, {and} {Naren Ramakrishnan}. 2013.
+\newblock \showarticletitle{A Temporal Motif Mining Approach to Unsupervised
+  Energy Disaggregation: Applications to Residential and Commercial Buildings}.
+  Bellevue, U.S.A.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Shaw}{Shaw}{2000}]%
+        {shaw2000PhdThesis}
+{Steven~Robert Shaw}. 2000.
+\newblock {\em System identification techniques and modeling for nonintrusive
+  load diagnositics}.
+\newblock Ph.D. Dissertation.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Srinivasan, Ng, and Liew}{Srinivasan
+  et~al\mbox{.}}{2006}]%
+        {srinivasan2006neural}
+{D. Srinivasan}, {WS Ng}, {and} {AC Liew}. 2006.
+\newblock \showarticletitle{Neural-network-based signature recognition for
+  harmonic source identification}.
+\newblock {\em IEEE Transactions on Power Delivery\/} (2006).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Tanaka, Iwamoto, and Uehara}{Tanaka
+  et~al\mbox{.}}{2005}]%
+        {tanaka2005discovery}
+{Yoshiki Tanaka}, {Kazuhisa Iwamoto}, {and} {Kuniaki Uehara}. 2005.
+\newblock \showarticletitle{Discovery of time-series motif from
+  multi-dimensional data based on MDL principle}.
+\newblock {\em Machine Learning\/} {58}, 2-3 (2005), 269--300.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Vullers, Schaijk, Visser, Penders, and
+  Hoof}{Vullers et~al\mbox{.}}{2010}]%
+        {vullers2010energy}
+{Rudd Vullers}, {Rob Schaijk}, {Hubregt Visser}, {Julien Penders}, {and} {Chris
+  Hoof}. 2010.
+\newblock \showarticletitle{Energy harvesting for autonomous wireless sensor
+  networks}.
+\newblock {\em IEEE Solid-State Circuits Magazine\/} {2}, 2 (2010), 29--38.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Yankov, Keogh, Medina, Chiu, and
+  Zordan}{Yankov et~al\mbox{.}}{2007}]%
+        {motif2}
+{Dragomir Yankov}, {Eamonn Keogh}, {Jose Medina}, {Bill Chiu}, {and} {Victor
+  Zordan}. 2007.
+\newblock \showarticletitle{{Detecting time series motifs under uniform
+  scaling}}. In {\em Proceedings of the 13th ACM SIGKDD international
+  Conference on Knowledge Discovery and Data Mining}.
+\newblock
+
+
+\end{thebibliography}

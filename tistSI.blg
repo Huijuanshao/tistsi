@@ -1,0 +1,167 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tistSI.aux
+A level-1 auxiliary file: sec/introduction.aux
+A level-1 auxiliary file: sec/prior.aux
+A level-1 auxiliary file: sec/multivariateApp.aux
+A level-1 auxiliary file: sec/predictionApp.aux
+A level-1 auxiliary file: sec/disaggResults.aux
+A level-1 auxiliary file: sec/predictionResults.aux
+The style file: ACM-Reference-Format-Journals.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+I was expecting a `,' or a `}'---line 262 of file references.bib
+ :   
+ :   _pages={58--63},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 347 of file references.bib
+ : @inproceedings{laxman2008stream
+ :                                ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 504 of file references.bib
+ : 
+ : url={http://buildingsdatabook.eren.doe.gov/TableView.aspx?table=1.1.3}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 511 of file references.bib
+ :     
+ :     school = {Massachusetts Institute of Technology},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 567 of file references.bib
+ :   
+ :   booktitle={Proceedings of The 1st KDD Workshop on Data Mining Applications in Sustainability (SustKDD)},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--no key, author in book2014us
+Warning--no author, editor, organization, or key in book2014us
+Warning--to sort, need author or key in book2014us
+Warning--no key, author in book2014us
+Warning--no key, author in book2014us
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in book2014us
+Warning--no author, editor, organization, or key in book2014us
+Warning--neither author and editor supplied for book2014us
+Warning--no number and no volume in book2014us
+Warning--page numbers missing in both pages and numpages fields in book2014us
+Warning--empty publisher in alrazgan2011learning
+Warning--empty address in alrazgan2011learning
+Warning--page numbers missing in both pages and numpages fields in alrazgan2011learning
+Warning--empty publisher in beltran2014optimal
+Warning--empty address in beltran2014optimal
+Warning--page numbers missing in both pages and numpages fields in beltran2014optimal
+Warning--empty publisher in chan2000harmonics
+Warning--empty address in chan2000harmonics
+Warning--page numbers missing in both pages and numpages fields in chan2000harmonics
+Warning--empty publisher in motif1
+Warning--empty address in motif1
+Warning--page numbers missing in both pages and numpages fields in motif1
+Warning--empty publisher in erickson2010occupancy
+Warning--empty address in erickson2010occupancy
+Warning--page numbers missing in both pages and numpages fields in erickson2010occupancy
+Warning--empty booktitle in gonccalves2011unsupervised
+Warning--empty publisher in gonccalves2011unsupervised
+Warning--empty address in gonccalves2011unsupervised
+Warning--page numbers missing in both pages and numpages fields in gonccalves2011unsupervised
+Warning--no number and no volume in hart1992
+Warning--page numbers missing in both pages and numpages fields in hart1992
+Warning--no number and no volume in hatley2005energy
+Warning--page numbers missing in both pages and numpages fields in hatley2005energy
+Warning--no number and no volume in johnson2012bayesian
+Warning--page numbers missing in both pages and numpages fields in johnson2012bayesian
+Warning--empty publisher in kim2011unsupervised
+Warning--empty address in kim2011unsupervised
+Warning--no number and no volume in kiukkonen2010towards
+Warning--page numbers missing in both pages and numpages fields in kiukkonen2010towards
+Warning--no number and no volume in kleiminger2014predicting
+Warning--page numbers missing in both pages and numpages fields in kleiminger2014predicting
+Warning--empty publisher in koehler2013therml
+Warning--empty address in koehler2013therml
+Warning--page numbers missing in both pages and numpages fields in koehler2013therml
+Warning--empty publisher in kolter2012aistat
+Warning--empty address in kolter2012aistat
+Warning--page numbers missing in both pages and numpages fields in kolter2012aistat
+Warning--empty publisher in krumm2011learning
+Warning--empty address in krumm2011learning
+Warning--no number and no volume in lam2007novel
+Warning--page numbers missing in both pages and numpages fields in lam2007novel
+Warning--no number and no volume in laxman2005discovering
+Warning--page numbers missing in both pages and numpages fields in laxman2005discovering
+Warning--empty publisher in laxman2008stream
+Warning--empty address in laxman2008stream
+Warning--page numbers missing in both pages and numpages fields in laxman2008stream
+Warning--no number and no volume in mahmoud2013behavioural
+Warning--page numbers missing in both pages and numpages fields in mahmoud2013behavioural
+Warning--empty publisher in manna2013learning
+Warning--empty address in manna2013learning
+Warning--page numbers missing in both pages and numpages fields in manna2013learning
+Warning--no number and no volume in mannila1997discovery
+Warning--page numbers missing in both pages and numpages fields in mannila1997discovery
+Warning--empty publisher in minnen2007improving
+Warning--empty address in minnen2007improving
+Warning--empty publisher in parson2012nonintrusive
+Warning--page numbers missing in both pages and numpages fields in parson2012nonintrusive
+Warning--empty publisher in patel2007flick
+Warning--empty address in patel2007flick
+Warning--page numbers missing in both pages and numpages fields in patel2007flick
+Warning--empty publisher in motifgoal
+Warning--empty address in motifgoal
+Warning--page numbers missing in both pages and numpages fields in motifgoal
+Warning--no number and no volume in patnaik2008inferring
+Warning--page numbers missing in both pages and numpages fields in patnaik2008inferring
+Warning--empty publisher in scott2011preheat
+Warning--empty address in scott2011preheat
+Warning--page numbers missing in both pages and numpages fields in scott2011preheat
+Warning--empty booktitle in shao2013temporal
+Warning--empty publisher in shao2013temporal
+Warning--page numbers missing in both pages and numpages fields in shao2013temporal
+Warning--empty school in shaw2000PhdThesis
+Warning--no number and no volume in srinivasan2006neural
+Warning--page numbers missing in both pages and numpages fields in srinivasan2006neural
+Warning--empty publisher in motif2
+Warning--empty address in motif2
+Warning--page numbers missing in both pages and numpages fields in motif2
+You've used 37 entries,
+            5290 wiz_defined-function locations,
+            1400 strings with 21601 characters,
+and the built_in function-call counts, 35646 in all, are:
+= -- 4269
+> -- 1659
+< -- 1
++ -- 512
+- -- 630
+* -- 2523
+:= -- 4026
+add.period$ -- 170
+call.type$ -- 37
+change.case$ -- 268
+chr.to.int$ -- 37
+cite$ -- 128
+duplicate$ -- 2833
+empty$ -- 2027
+format.name$ -- 672
+if$ -- 8540
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 155
+newline$ -- 314
+num.names$ -- 288
+pop$ -- 1431
+preamble$ -- 1
+purify$ -- 453
+quote$ -- 0
+skip$ -- 685
+stack$ -- 0
+substring$ -- 2221
+swap$ -- 165
+text.length$ -- 182
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 518
+warning$ -- 87
+while$ -- 197
+width$ -- 0
+write$ -- 616
+(There were 5 error messages)

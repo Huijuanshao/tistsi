@@ -55,7 +55,7 @@ The intelligent energy management system monitors devices, controls appliances a
 Determining how to collect accurate energy data using state-of-the-art technology is a fundamental problem. 
   With the advent of sensor technology, wireless sensor nodes and active RFID tags are 
   installed on devices or worn by people to gather comprehensive information \cite{vullers2010energy}. 
-Generally, energy consumption, water usage, gap expenditure, air temperature or noise status are monitored by meters or wireless sensors, then the collected data is transmitted to the computer and to storage. 
+Generally, energy consumption, water usage, gas expenditure, air temperature or noise status are monitored by meters or wireless sensors, then the collected data is transmitted to the computer and to storage. 
 Identifying how to measure and collect this data precisely with low cost and minimal intrusion has always been a problem. 
   \item Quantify opportunities.
  Analyzing data and discovering opportunities for energy optimization are another concern. 
@@ -80,7 +80,7 @@ In this work, we endeavor to clarify the problems of how to qualify energy usage
 \emph{Analytics} has transformed the perception of the world we live in. Big Data is the lingua franca of the twenty-first century, and data science has become an essential lens through which decision making is seen. The massive amounts of data collected via several active and passive instrumentations positions us truly in an \emph{age of information}. Data via Web 2.0, social media, the internet of things, traffic flow, gene sequencing, etc., in conjunction with the advancement of using data-mining and machine-learning to glean actionable insights, have influenced the world in designing policy, pricing products, launching political campaigns, and many other applications. The power of \emph{data analytics}, thus, is in its diversity. 
 With respect to energy quantification, we introduce data-driven models to address several problems that we study in this thesis. 
 
-\textbf{Topic 1: Disaggregation to energy and water}
+\textbf{Topic 1: Disaggregation to energy}
 
 While people generally agree on the importance of conservation and
 usage curtailment, they often find it difficult to quantify 
@@ -113,11 +113,11 @@ Energy disaggregation is hence today a booming area both offering
 challenging problems for data analytics and having practical relevance in a
 number of areas including sensor networks and building analytics.
 
-Water disaggregation \cite{carboni2016contextualising} is similar to electricity disaggregation. 
-By measuring the water flow rate, vibration or pressure in the hot and cold water, 
-the flow trace of each water use end is inferred. 
-This breakdown process is somewhat different from the electricity disaggregation 
-because of the characteristics of water use ends. 
+%Water disaggregation \cite{carboni2016contextualising} is similar to electricity disaggregation. 
+%By measuring the water flow rate, vibration or pressure in the hot and cold water, 
+%the flow trace of each water use end is inferred. 
+%This breakdown process is somewhat different from the electricity disaggregation 
+%because of the characteristics of water use ends. 
 
 \textbf{Topic 2: Occupancy Prediction}
 
@@ -176,7 +176,7 @@ In our work we apply motif mining techniques, both univariate and multivariate c
 
 \input{fig/framework}
 Figure \ref{fig_framework_whole} gives a overall framework on the issues of the above smart building issues. 
-By mainly collecting the energy consumption of profiles of electrical devices or water use ends, 
+By mainly collecting the energy consumption of profiles of electrical devices, %or water use ends, 
 and the activities of daily life profiles of people inside buildings, we analyze the frequent episodes from these profiles with temporal mining and probabilistic models. Based on this analysis, a controlling and scheduling system can be developed to control individual devices. 
 
 The formulation of the EGH model lends itself to predicting occupancy in a residence or any building. We develop an EGH model based on occupancy prediction that can assist in automated turning on or off of the HVAC system, which can single-handedly reduce a good portion of the energy consumption footprint. We demonstrate that our algorithm can effectively forecast occupancy.  
@@ -186,11 +186,9 @@ The formulation of the EGH model lends itself to predicting occupancy in a resid
 In this work we make efforts to resolve some of the problems arising in smart building research with 
 temporal mining approaches.
 \begin{enumerate}
-	\item We present a survey on energy disaggregation from the perspective of data mining features and supervised, semi-supervised and unsupervised algorithms. 
-	\item The temporal mining approach motif mining works effectively for energy disaggregation. 
-	\item We utilize a multivariate piecewise motif mining algorithm for both energy disaggregation and water disaggregation. 
+	\item The episode mining approach works effectively for discovering significant patterns in the problems of energy disaggregation and occupancy prediction. 
+	\item We extend previous temporal mining approach~\cite{shao2013temporal} to a multivariate piecewise motif mining algorithm for energy disaggregation. 
 	\item The episode-based model Episode Generating HMM (EGH) and a mixture of EGHs performs well for event prediction in occupancy prediction. 
-	%\item It can be used for supervised learning disaggregation and semi-supervised learning approach, even for un-supervised learning approach. 
 \end{enumerate}
 
 \iffalse
